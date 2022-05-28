@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>Japanese Food</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Yeon+Sung&display=swap" rel="stylesheet"> 
+    <style>
+      .head{font-family: 'Jua', sans-serif;
+            font-size: 80px;
+           }
+  
+      .address{font-family: 'Yeon Sung', cursive;
+                font-size: 40px;
+               }
+  
+      .body{font-family: 'Jua', sans-serif;
+            font-size: 40px;
+           }
+
+      .info{font-family: 'Jua', sans-serif;
+            font-size: 25px;
+           }
+
+      .end{
+          font-family: 'Jua', sans-serif;
+            font-size: 40px;
+      }
+      .menu{
+              border: 1px solid rgb(23, 23, 22);
+              border-radius: 50px;
+              -moz-border-radius: 50px;
+              -khtml-border-radius: 50px;
+              -webkit-border-radius: 50px;
+              width:170px;
+              height:170px;
+              float:left;
+           }
+
+        .pic{height: 200px; background: url("./img/favorite.jpeg") no-repeat; }
+        .pic2{height: 190px; background: url("./img/right.png") no-repeat; }
+        .pic3{height: 190px; background: url("./img/left.png") no-repeat; }
+        .text{ font-family: 'Jua', sans-serif; 
+              font-size: 40px;
+              width: auto; 
+              height:125px; 
+              background:#000000; 
+              opacity:0; 
+              padding:30px;
+             }
+        .pic:hover .text { opacity:0.6; text-align:center; color:#1c1a1a; }
+        .pic2:hover .text { opacity:0.6; text-align:center; color:#1c1a1a; }
+        .pic3:hover .text { opacity:0.6; text-align:center; color:#1c1a1a; }
+      .floating {
+                background-color:#f9f9f9;
+                border:2px solid #000;
+                position: fixed; 
+                right: 45%; 
+                top: 12%; 
+                margin-right: -615px;
+                text-align:center;
+                width:15%;
+                height:72%;
+                border-radius: 8px;
+
+         }
+
+      .floating div:nth-child(1){
+        border:2px solid #ffffff;
+        border-radius: 8px;
+      }
+      .floating div:nth-child(2){
+        border:2px solid #ffffff;
+        border-radius: 8px;
+      }
+      .floating div:nth-child(3){
+        border:2px solid #ffffff;
+        border-radius: 8px;
+      }
+
+      button:hover{
+    color: white;
+    background-color: rgb(53, 51, 49);
+      }
+ 
+      </style>
+
+    
+</head>
+<body>
+    <div class="floating">
+      <div class="pic">
+        <a href="favorite.html">
+        
+        <div class="text", style="padding-top: 20%;">
+          <p style="color :#ffffff">
+        즐겨찾기
+      </p>
+      </a>
+        </div>
+        </div>   
+        <div>
+          <div>        
+            <div class="pic2">
+              <a href="chineseFood.html">
+              
+              <div class="text" style="padding-top: 12%; ">
+                <p style="color :#ffffff">
+                  중식
+                </p>
+          
+            </a>
+              </div>
+      </div>
+    </div>
+  </div>
+  <div class="pic3">
+    <a href="asianFood.html">
+    
+    <div class="text" style="padding-top: 10%; ">
+      <p style="color :#ffffff">
+        아시안
+      </p>
+
+  </a>
+    </div>
+</div>
+</div>
+</div>
+  <div style="text-align:center">
+    <h1 class="head">돈까스 / 일식</h1>
+    <h1 class="address">(도로명 주소: 경북 포항시 북구 흥해읍 한동로 558)</h1>
+  
+
+    <button id type="home" onclick="location.href='main.html'" style="cursor:pointer;">
+      <img src="./img/home.png"  width = "50">
+    </button>
+  </div>
+    <hr size="4"  width="end" color= "rgb(31, 33, 33);">
+
+
+
+<p>
+  <p class="body">
+  <img class="menu"src="./img/1.jpeg" /> 
+  <p class = "info" style="width:auto; height:auto;"> 
+    &emsp;&emsp; 평점 :  <span>★</span><span>★</span><span>★</span><span>★</span><span>☆</span>
+        <br> &emsp;&emsp; 대표 메뉴 : 모듬까스. 해물볶음우동
+        <br> &emsp;&emsp; 전화번호 : 054-255-0225  
+        <br> &emsp;&emsp; 영업시간 : 11:30 ~ 20:30 (매주 화요일 휴무) 
+        <br> &emsp;&emsp; 배달비 : 4000원 
+        <br><br> &emsp;[류앤돈가스] &emsp;&emsp;&emsp;
+        <button id = "button" style="cursor: pointer;">
+            <p>
+             즐겨찾기 추가
+            </p>
+              </button>
+        </p>
+
+    </p>
+</p>
+
+<br>
+
+<p>
+    <p class="body">
+    <img class="menu"src="./img/2.jpeg" /> 
+    <p class = "info" style="width:auto; height:auto;"> 
+      &emsp;&emsp; 평점 :  <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          <br> &emsp;&emsp; 대표 메뉴 : 뜨돈 돈가스. 뜨돈 치킨가스
+          <br> &emsp;&emsp; 전화번호 : 050-6518-0640
+          <br> &emsp;&emsp; 영업시간 : 11:00 ~ 20:30 (연중무휴)
+          <br> &emsp;&emsp; 배달비 : 3000원  
+          <br><br> &emsp; &emsp;[뜨돈] &emsp;&emsp;&emsp;&emsp;
+          <button id = "button1" style="cursor: pointer;">
+              <p>
+               즐겨찾기 추가
+              </p>
+                </button>
+          </p>
+  
+      </p>
+  </p>
+  
+  <br>
+
+
+ 
+<p>
+    <p class="body">
+    <img class="menu"src="./img/3.jpeg" /> 
+    <p class = "info" style="width:auto; height:auto;"> 
+      &emsp;&emsp; 평점 :  <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          <br> &emsp;&emsp; 대표 메뉴 : 고구마큐브치즈카츠, 프리미엄카츠
+          <br> &emsp;&emsp; 전화번호 : 050-6019-5144
+          <br> &emsp;&emsp; 영업시간 : 11:00 ~ 20:30 (매주 일요일 휴무)
+          <br> &emsp;&emsp; 배달비 : 4000원  
+          <br><br> &emsp;[숑숑돈까스] &emsp;&emsp;&emsp;
+          <button id = "button2" style="cursor: pointer;">
+              <p>
+               즐겨찾기 추가
+              </p>
+                </button>
+          </p>
+  
+      </p>
+  </p>
+  
+  <br>
+
+  
+<p>
+    <p class="body">
+    <img class="menu"src="./img/4.jpeg" /> 
+    <div class="star-ratings-base space-x-2 text-lg">
+  
+    </div>
+  
+  
+  
+    <p class = "info" style="width:auto; height:auto;"> 
+      &emsp;&emsp; 평점 :  <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+          <br> &emsp;&emsp; 대표 메뉴 : 물회, 우공모듬초밥
+          <br> &emsp;&emsp; 전화번호 : 050-6827-1197 
+          <br> &emsp;&emsp; 영업시간 : 10:00 ~ 21:30 (연중무휴) 
+          <br> &emsp;&emsp; 배달비 : 3500원 
+          <br><br> &emsp;[우공피쉬] &emsp;&emsp;&emsp;
+          <button id = "button3" style="cursor: pointer;">
+              <p>
+               즐겨찾기 추가
+              </p>
+                </button>
+          </p>
+  
+      </p>
+  </p>
+  
+  <br>
+  <br>
+  <br>
+
+        <script>
+
+          let i = localStorage.length + 1 ;
+          let t = 0;
+          let add = document.querySelector('#button');
+          let add1 = document.querySelector('#button1');
+          let add2 = document.querySelector('#button2');
+          let add3 = document.querySelector('#button3');
+
+          add.addEventListener('click', function() {
+            var data = {
+              deliveryFee:'4000원',
+              name:'류앤돈가스',
+              phoneNumber: '054-255-0225',
+              openingTime: '11:30~20:30 (매주 화요일 휴무)',
+              starRating: '★★★★☆',
+              menu: '모듬까스. 해물볶음우동'
+            };
+            for(let k = 0; k < localStorage.length; k++)
+            {
+                let datas = localStorage.getItem('product ' + (k + 1));
+                let objectData = JSON.parse(datas);
+                if(data.name == objectData.name)
+                {
+                    alert('이미 추가한 항목입니다!');
+                    return;
+                }
+            }
+            var productData = JSON.stringify(data);
+            localStorage.setItem(`product ${i}`, productData);
+            i += 1;
+            alert('즐겨찾기에 추가되었습니다.')
+            return;
+            
+          })
+
+          add1.addEventListener('click', function() {
+            var data = {
+              deliveryFee:'3000원',
+              name:'뜨돈',
+              phoneNumber: '050-6518-0640',
+              openingTime: '11:00~20:30 (연중무휴)',
+              starRating: '★★★★★',
+              menu: '뜨돈 돈가스. 뜨돈 치킨가스'
+            };
+            for(let k = 0; k < localStorage.length; k++)
+            {
+                let datas = localStorage.getItem('product ' + (k + 1));
+                let objectData = JSON.parse(datas);
+                if(data.name == objectData.name)
+                {
+                    alert('이미 추가한 항목입니다!');
+                    return;
+                }
+            }
+            var productData = JSON.stringify(data);
+            localStorage.setItem(`product ${i}`, productData);
+            i += 1;
+            alert('즐겨찾기에 추가되었습니다.')
+            return;
+          })
+
+          add2.addEventListener('click', function() {
+            var data = {
+              deliveryFee:'4000원',
+              name:'숑숑돈까스',
+              phoneNumber: '050-6019-5144',
+              openingTime: '11:00~20:30 (매주 일요일 휴무)',
+              starRating: '★★★★★',
+              menu: '고구마큐브치즈카츠, 프리미엄카츠'
+            };
+            for(let k = 0; k < localStorage.length; k++)
+            {
+                let datas = localStorage.getItem('product ' + (k + 1));
+                let objectData = JSON.parse(datas);
+                if(data.name == objectData.name)
+                {
+                    alert('이미 추가한 항목입니다!');
+                    return;
+                }
+            }
+            var productData = JSON.stringify(data);
+            localStorage.setItem(`product ${i}`, productData);
+            i += 1;
+            alert('즐겨찾기에 추가되었습니다.')
+            return;
+          })
+
+          add3.addEventListener('click', function() {
+            var data = {
+              deliveryFee:'3500원',
+              name:'우공피쉬',
+              phoneNumber: '050-6827-1197',
+              openingTime: '10:00 ~ 21:30 (연중무휴)',
+              starRating: '★★★★★',
+              menu: '물회, 우공모듬초밥'
+            };
+            for(let k = 0; k < localStorage.length; k++)
+            {
+                let datas = localStorage.getItem('product ' + (k + 1));
+                let objectData = JSON.parse(datas);
+                if(data.name == objectData.name)
+                {
+                    alert('이미 추가한 항목입니다!');
+                    return;
+                }
+            }
+            var productData = JSON.stringify(data);
+            localStorage.setItem(`product ${i}`, productData);
+            i += 1;
+            alert('즐겨찾기에 추가되었습니다.')
+            return;
+          })
+        </script>
+
+        <script>
+          var timeOut;
+          function scrollToTop() {
+              if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+                  window.scrollBy(0,-50);
+                  timeOut=setTimeout('scrollToTop()',10);
+              }
+              else clearTimeout(timeOut);
+          }
+      </script>
+
+          <script>
+            var timeOut;
+            function scrollToTop() {
+                if (document.body.scrollTop!=0 || document.documentElement.scrollTop!=0){
+                    window.scrollBy(0,-50);
+                    timeOut=setTimeout('scrollToTop()',10);
+                }
+                else clearTimeout(timeOut);
+            }
+        </script>
+
+
+      
+    <div class="back-to-top pointer" style =" font-family: 'Jua', sans-serif; font-size: 20px; cursor:pointer;  border: 3px solid rgb(23, 23, 22); width:auto; text-align: center;" onclick="scrollToTop();"> 맨 위로 가기 </div>
+  </body>
+
+  
+
+  <div style="text-align:center">
+  <end>
+  <p class="end">
+      <br>
+    문의 사항이 있을 경우 21900104@handong.ac.kr 연락 바랍니다 :)
+    </p>
+
+</html>

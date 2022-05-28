@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>Food Delivery Guide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Yeon+Sung&display=swap" rel="stylesheet">
+    <style>
+    .head{font-family: 'Jua', sans-serif;
+          font-size: 80px;
+         }
+
+    .address{font-family: 'Yeon Sung', cursive;
+              font-size: 40px;
+             }
+
+    .body{font-family: 'Jua', sans-serif;
+          font-size: 40px;
+         }
+    #btn_group button{ /* 버튼 list */
+	border: 3px solid;
+	background-color:rgba(0,0,0,0);
+	width: 200px;
+	height: 60px;
+	display: block;
+	border-radius:12px;
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 28px;
+    cursor: pointer;
+    }
+    #btn_group button:hover{
+	color: white;
+	background-color: rgb(53, 51, 49);
+    }
+
+
+    </style>
+  </head>
+  <body>
+  
+
+    <div style="text-align:center">
+    <h1 class="head">한동 배달 음식</h1>
+    <h1 class="address">(도로명 주소: 경북 포항시 북구 흥해읍 한동로 558)</h1>
+    <hr size="4" width="end" color= "rgb(31, 33, 33);">
+    <p class="body">
+        원하시는 음식 테마를 선택해 주세요
+    </p>
+
+    <div style="border: 0px solid; display: inline-block;"> 
+
+ 
+     <div id="btn_group">
+
+     <table>
+        <div style=" text-align: center;">
+        <button id type="button" style=" display: inline-block;" onclick="location.href='favorite.html'">
+      
+            즐겨찾기
+        
+        </button>
+        </div>
+        <br>
+      <tr>
+
+        
+    
+        <td>
+
+
+	  <button id type="button" onclick="location.href='japaneseFood.html'">
+      
+        돈까스/일식 
+    
+    </button>
+
+        </td>
+
+        <td>
+  	  <button id type="button" onclick="location.href='chineseFood.html'">
+            중식
+	  </button>
+        </td>
+
+	<td>
+	  <button id type="button" onclick="location.href='chicken.html'">
+            치킨
+	  </button>
+	</td>
+      </tr>
+      
+      <tr>
+	<td>
+	  <button id type="button" onclick="location.href='snackbar.html'">
+            분식
+	  </button>
+	</td>
+
+	<td>
+	  <button id type="button" onclick="location.href='stew.html'">
+            찜/찌개
+	  </button>
+	</td>
+
+	<td>
+	  <button id type="button" onclick="location.href='pizza.html'">
+            피자
+	  </button>
+	</td>
+      </tr>
+
+      <tr>
+    <td>
+        <button id type="button" onclick="location.href='fastFood.html'">
+        패스트푸드
+        </button>
+    </td>
+
+    <td>
+        <button id type="button" onclick="location.href='jokbal.html'">
+        족발
+        </button>
+    </td>
+
+    <td>
+        <button id type="button" onclick="location.href='asianFood.html'">
+        아시안
+        </button>
+    </td>
+
+    
+        </tr>
+     </table>
+  
+    </div>
+    </div>
+             <br>
+         <br>
+    </p>
+     <p class="body">
+        문의 사항이 있을 경우 21900104@handong.ac.kr 연락 바랍니다 :)
+    </p>
+
+    </div>
+  
+    
+   </body>
+   </html>
+   
