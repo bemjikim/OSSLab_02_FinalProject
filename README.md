@@ -9,7 +9,7 @@
 
 ### *What does this project do?*
 
-> ##### This is a web project to give users info about the restaurants. It includes Menu, restaurant's number, delivery fee, opening time, pictures, and so on. You can choose the menu you want. You just see that information then you call it! Furthermore, there are buttons called 'bookmark' for the add or delete. You can make your favorite menu list!
+> ##### This is a web project to give users info about the restaurants. It includes Menu, restaurant's number, delivery fee, opening time, pictures, and so on. You can choose the menu you want. You just see that information and you just order it! Furthermore, there are buttons called 'bookmark' for the add or delete. You can make your favorite menu list!
 
 ### *Why is this project useful?*
 
