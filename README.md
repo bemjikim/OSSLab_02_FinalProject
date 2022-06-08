@@ -13,7 +13,7 @@
 
 ### *Why is this project useful?*
 
-> ##### Nowadays, we often take delivery of food using apps. But there are so many restaurants that we can’t choose what we eat. To solve this problem, This project recommends the restaurant in the top 5 in HGU for students (especially first-year students who don’t know what is the famous restaurant). As a result, It will be useful to use when they eat the delivery food.
+> ##### Nowadays, we often take delivery of food using apps. But there are so many restaurants that we can’t choose what we eat. To solve this problem, This project recommends the restaurant in the top 5 in HGU for students (especially first-year students who don’t know what is the famous restaurant). As a result, It will be helpful to use when they eat the delivery food.
 
 ### *How do I get started?*
 
