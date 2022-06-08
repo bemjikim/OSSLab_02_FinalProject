@@ -2,7 +2,7 @@
 
 *21900104 / Kim Bumjin / CSEE*
 
-*Video Link* : 
+*Video Link* : https://youtu.be/3DuyJf_XPtM
 
 
 
