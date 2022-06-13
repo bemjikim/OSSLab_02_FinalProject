@@ -28,6 +28,7 @@
 
 ### *Contribution*
 #### 
+I did it myself all of the implementations of the function.
 I contribute to this project which was a simple web to show restaurant info. I divided three screens: main, food, and bookmark. The main screen has ten buttons which have bookmarks and other foods. These buttons link other HTML files. On the food screen, it shows the info of the restaurant and has a button that I used javascript to put the info on the local storage. On the bookmark screen, it shows the information we added. This information remains until you delete it. I made the delete button that eliminates all of the data. Also, I made the button that backs to the top. If you click that button, it scrolled back to the top.
 
 ### *Where can I get more help, if I need it?*
